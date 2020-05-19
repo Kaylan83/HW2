@@ -1,0 +1,96 @@
+html {
+    overflow: scroll;
+    overflow-x: hidden;
+}
+* {
+    box-sizing: border-box;
+
+  }
+
+.footerpadding{
+    padding-top: 20px;
+}
+
+.marginbottom{
+    margin-bottom: 30px;
+}
+
+  .padding{
+      padding: 30px;
+  }
+
+  body{
+      background-image:url(images/IMG_2789.jpg);
+  }
+
+h1{
+    font-size: 25px;
+    padding-top: 10px;
+    /* color: #4aaaa5; */
+    
+}
+
+.text-color{
+    color: #4aaaa5;
+}
+
+  .name-dec {
+    width: 250px;
+    background: #4aaaa5;
+    color: #fff;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    line-height: 70px;
+    font-weight: 700;
+    font-size: 30px;
+    text-decoration: none;
+    padding-bottom: 5px;
+    }
+  
+    /* removing the padding and margin off the navbar */
+    .navbar {
+        margin-left: 0px;
+        padding: 0 0 0 0 !important
+               
+      }
+
+
+
+  .nav-margin{
+    margin-bottom: 30px;
+    border-bottom: 3px solid #ddd;
+  }
+
+  /* starting the main staying */
+.mypic{
+    max-width: 300px;
+    min-width: 260px;
+    width: 100%;
+    height: auto;
+    max-height: 300px;
+    float: left;
+    margin-right: 10px;
+    border: 1px solid #4aaaa5;
+}
+
+.connecticons{
+    width: 40px;
+    height: auto;
+}
+
+.borderbottom {
+    border-bottom: 3px solid #ddd;
+}
+.margintop{
+    margin-top: 20px;
+}
+
+/* footer top border */
+
+.bordertop {
+    border-top: 8px solid #4aaaa5;
+}
+
+
+
+
