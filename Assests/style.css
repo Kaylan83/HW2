@@ -16,7 +16,7 @@ html {
 }
 
   .padding{
-      padding: 30px;
+      padding: 20px;
   }
 
   body{
@@ -26,18 +26,22 @@ html {
 h1{
     font-size: 25px;
     padding-top: 10px;
-    /* color: #4aaaa5; */
+  
     
 }
 
+h5{
+    padding-top: 10px;
+}
+
 .text-color{
-    color: #4aaaa5;
+    color: teal;
 }
 
   .name-dec {
     width: 250px;
-    background: #4aaaa5;
-    color: #fff;
+    background: teal;
+    color: white;
     text-align: center;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     line-height: 70px;
@@ -63,20 +67,20 @@ h1{
 
   /* starting the main staying */
 .mypic{
-    max-width: 300px;
+    max-width: 400px;
     min-width: 260px;
     width: 100%;
     height: auto;
     max-height: 300px;
     float: left;
     margin-right: 10px;
-    border: 1px solid #4aaaa5;
+    border: 1px solid teal;
 }
 
 .connecticons{
     width: 40px;
     height: auto;
-}
+    }
 
 .borderbottom {
     border-bottom: 3px solid #ddd;
@@ -88,7 +92,7 @@ h1{
 /* footer top border */
 
 .bordertop {
-    border-top: 8px solid #4aaaa5;
+    border-top: 8px solid teal;
 }
 
 
@@ -96,7 +100,7 @@ h1{
 .card-title-position{
     background-color: teal;
     color: #ffffff;
-    height: 60px;
+    height: 50px;
     width: 100%;
     text-align: center;
     position: absolute;
@@ -106,7 +110,38 @@ h1{
 }
 
 .card-padding{
-    padding-left: 40px;
-    padding-bottom: 30px;
+   margin-top: 20px;
+    
 }
 
+
+/* On screens that are 992px or less, set the background color to blue */
+@media screen and (max-width:992px) {
+    body {
+        background-image:url(images/smallScreenBackground.jpeg);
+    }
+    .marginLeft{
+        margin-left: 20px;
+    }
+    .connecticons{
+        max-width: 20px;
+        height: auto;
+        }
+
+  }
+  
+  /* On screens that are 600px or less, set the background color to olive */
+  @media screen and (max-width: 600px) {
+    body {
+        background-image:url(images/smallScreenBackground.jpeg);
+    }
+
+    .marginLeft{
+        margin-left: 20px;
+    }
+    .connecticons{
+        max-width: 20px;
+        height: auto;
+        }
+
+}
