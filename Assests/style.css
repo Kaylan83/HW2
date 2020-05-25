@@ -7,9 +7,6 @@ html {
 
   }
 
-.footerpadding{
-    padding-top: 20px;
-}
 
 .marginbottom{
     margin-bottom: 30px;
@@ -19,20 +16,12 @@ html {
       padding: 20px;
   }
 
+  /* background picture */
+
   body{
       background-image:url(images/IMG_2789.jpg);
   }
 
-
-
-h5{
-    padding-top: 10px;
-    
-}
-
-.text-color{
-    color: teal;
-}
 
   .name-dec {
     width: 250px;
@@ -48,20 +37,30 @@ h5{
     }
   
     /* removing the padding and margin off the navbar */
-    .navbar {
+.navbar {
         margin-left: 0px;
         padding: 0 0 0 0 !important
-               
+                       
       }
 
 
-
-  .nav-margin{
+.nav-margin{
     margin-bottom: 30px;
     border-bottom: 3px solid #ddd;
   }
 
-  /* starting the main staying */
+  /* starting the main styling */
+
+/* adding a top padding to the h5 elements in the portfolio page */
+h5{
+    padding-top: 10px;
+    
+} 
+
+h1,h6 {
+    color: teal;
+}
+
 .mypic{
     max-width: 300px;
     min-width: 260px;
@@ -73,6 +72,7 @@ h5{
     border: 1px solid teal;
 }
 
+/* sizing the connection images */
 .connecticons{
     width: 40px;
     height: auto;
@@ -85,14 +85,7 @@ h5{
     margin-top: 20px;
 }
 
-/* footer top border */
-
-.bordertop {
-    border-top: 8px solid teal;
-}
-
-
-
+/* styling the card and its content */
 .card-title-position{
     background-color: teal;
     color: #ffffff;
@@ -110,6 +103,15 @@ h5{
     
 }
 
+/* footer styling */
+
+.footerpadding{
+    padding-top: 20px;
+}
+.bordertop {
+    border-top: 8px solid teal;
+}
+
 
 /* On screens that are 768px or less, set the background color to blue */
 @media screen and (max-width:768px) {
@@ -123,17 +125,16 @@ h5{
         max-width: 30px;
         height: auto;
         }
-        h1 {
+
+    h1 {
             font-size: 10px;
         }
     
 
   }
 
-
-  
-  /* On screens that are 640px or less, set the background color to olive */
-  @media screen and (max-width: 540px) {
+/* On screens that are 640px or less, set the background color to olive */
+  @media screen and (max-width: 640px) {
     body {
         background-image:url(images/smallScreenBackground.jpeg);
     }
@@ -146,7 +147,7 @@ h5{
         height: auto;
         }
 
-        .name-dec {
+    .name-dec {
             width: 200px;
            line-height: 50px;
             font-weight: 400;
@@ -154,7 +155,7 @@ h5{
                
             }
 
-            main h1 {
+    main h1 {
                 font-size: 30px;
             }
             .mypic{
