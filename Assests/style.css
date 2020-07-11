@@ -19,9 +19,18 @@ html {
   /* background picture */
 
   body{
-      background-image:url(images/IMG_2789.jpg);
+      background-image:url(images/sb-blog-programming.jpg);
+      background-attachment: fixed;
+      background-size: cover;
   }
 
+  p {
+      color: seashell;
+  }
+.cardBgrColor{
+    background-color:  rgba(100, 100, 100, 0.74);
+    
+}
 
   .name-dec {
     width: 250px;
@@ -58,7 +67,7 @@ h5{
 } 
 
 h1,h6 {
-    color: teal;
+    color: rgb(18, 19, 18);
 }
 
 .mypic{
