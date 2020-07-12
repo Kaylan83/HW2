@@ -125,6 +125,9 @@ h1,h6 {
 /* On screens that are 768px or less, set the background color to blue */
 @media screen and (max-width:768px) {
 
+    body {
+        background-image:url(images/sb-blog-programming.jpg);
+    }
     .marginLeft{
         margin-left: 20px;
     }
@@ -143,6 +146,9 @@ h1,h6 {
 /* On screens that are 640px or less, set the background color to olive */
   @media screen and (max-width: 640px) {
 
+    body {
+        background-image:url(images/sb-blog-programming.jpg);
+    }
 
     .marginLeft{
         margin-left: 20px;
